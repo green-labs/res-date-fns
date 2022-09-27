@@ -23,7 +23,7 @@ type formatOptions = {
   useAdditionalWeekYearTokens: option<bool>,
   useAdditionalDayOfYearTokens: option<bool>,
 }
-@module("date-fns/formatOpt")
+@module("date-fns/format")
 external formatOpt: (Js.Date.t, string, formatOptions) => string = "default"
 
 @module("date-fns/formatDistance")
