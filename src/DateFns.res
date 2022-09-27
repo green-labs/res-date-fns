@@ -571,3 +571,8 @@ external setWeekYearOptf: (Js.Date.t, float, weekYearOptions) => Js.Date.t = "de
 @module("date-fns/startOfWeekYear") external startOfWeekYear: Js.Date.t => Js.Date.t = "default"
 @module("date-fns/startOfWeekYear")
 external startOfWeekYearOpt: (Js.Date.t, weekYearOptions) => Js.Date.t = "default"
+
+module Locale = {
+  @module("date-fns/locale/ko")
+  external ko: locale = "default"
+}
