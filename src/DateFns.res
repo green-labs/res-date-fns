@@ -573,6 +573,282 @@ external setWeekYearOptf: (Js.Date.t, float, weekYearOptions) => Js.Date.t = "de
 external startOfWeekYearOpt: (Js.Date.t, weekYearOptions) => Js.Date.t = "default"
 
 module Locale = {
+  @module("date-fns/locale/af")
+  external af: locale = "default"
+
+  @module("date-fns/locale/ar")
+  external ar: locale = "default"
+
+  @module("date-fns/locale/ar-DZ")
+  external ar_DZ: locale = "default"
+
+  @module("date-fns/locale/ar-EG")
+  external ar_EG: locale = "default"
+
+  @module("date-fns/locale/ar-MA")
+  external ar_MA: locale = "default"
+
+  @module("date-fns/locale/ar-SA")
+  external ar_SA: locale = "default"
+
+  @module("date-fns/locale/ar-TN")
+  external ar_TN: locale = "default"
+
+  @module("date-fns/locale/az")
+  external az: locale = "default"
+
+  @module("date-fns/locale/be")
+  external be: locale = "default"
+
+  @module("date-fns/locale/be-tarask")
+  external be_tarask: locale = "default"
+
+  @module("date-fns/locale/bg")
+  external bg: locale = "default"
+
+  @module("date-fns/locale/bn")
+  external bn: locale = "default"
+
+  @module("date-fns/locale/bs")
+  external bs: locale = "default"
+
+  @module("date-fns/locale/ca")
+  external ca: locale = "default"
+
+  @module("date-fns/locale/cs")
+  external cs: locale = "default"
+
+  @module("date-fns/locale/cy")
+  external cy: locale = "default"
+
+  @module("date-fns/locale/da")
+  external da: locale = "default"
+
+  @module("date-fns/locale/de")
+  external de: locale = "default"
+
+  @module("date-fns/locale/de-AT")
+  external de_AT: locale = "default"
+
+  @module("date-fns/locale/el")
+  external el: locale = "default"
+
+  @module("date-fns/locale/en-AU")
+  external en_AU: locale = "default"
+
+  @module("date-fns/locale/en-CA")
+  external en_CA: locale = "default"
+
+  @module("date-fns/locale/en-GB")
+  external en_GB: locale = "default"
+
+  @module("date-fns/locale/en-IE")
+  external en_IE: locale = "default"
+
+  @module("date-fns/locale/en-IN")
+  external en_IN: locale = "default"
+
+  @module("date-fns/locale/en-NZ")
+  external en_NZ: locale = "default"
+
+  @module("date-fns/locale/en-US")
+  external en_US: locale = "default"
+
+  @module("date-fns/locale/en-ZA")
+  external en_ZA: locale = "default"
+
+  @module("date-fns/locale/eo")
+  external eo: locale = "default"
+
+  @module("date-fns/locale/es")
+  external es: locale = "default"
+
+  @module("date-fns/locale/et")
+  external et: locale = "default"
+
+  @module("date-fns/locale/eu")
+  external eu: locale = "default"
+
+  @module("date-fns/locale/fa-IR")
+  external fa_IR: locale = "default"
+
+  @module("date-fns/locale/fi")
+  external fi: locale = "default"
+
+  @module("date-fns/locale/fr")
+  external fr: locale = "default"
+
+  @module("date-fns/locale/fr-CA")
+  external fr_CA: locale = "default"
+
+  @module("date-fns/locale/fr-CH")
+  external fr_CH: locale = "default"
+
+  @module("date-fns/locale/fy")
+  external fy: locale = "default"
+
+  @module("date-fns/locale/gd")
+  external gd: locale = "default"
+
+  @module("date-fns/locale/gl")
+  external gl: locale = "default"
+
+  @module("date-fns/locale/gu")
+  external gu: locale = "default"
+
+  @module("date-fns/locale/he")
+  external he: locale = "default"
+
+  @module("date-fns/locale/hi")
+  external hi: locale = "default"
+
+  @module("date-fns/locale/hr")
+  external hr: locale = "default"
+
+  @module("date-fns/locale/ht")
+  external ht: locale = "default"
+
+  @module("date-fns/locale/hu")
+  external hu: locale = "default"
+
+  @module("date-fns/locale/hy")
+  external hy: locale = "default"
+
+  @module("date-fns/locale/id")
+  external id: locale = "default"
+
+  @module("date-fns/locale/is")
+  external is: locale = "default"
+
+  @module("date-fns/locale/it")
+  external it: locale = "default"
+
+  @module("date-fns/locale/it-CH")
+  external it_CH: locale = "default"
+
+  @module("date-fns/locale/ja")
+  external ja: locale = "default"
+
+  @module("date-fns/locale/ja-Hira")
+  external ja_Hira: locale = "default"
+
+  @module("date-fns/locale/ka")
+  external ka: locale = "default"
+
+  @module("date-fns/locale/kk")
+  external kk: locale = "default"
+
+  @module("date-fns/locale/km")
+  external km: locale = "default"
+
+  @module("date-fns/locale/kn")
+  external kn: locale = "default"
+
   @module("date-fns/locale/ko")
   external ko: locale = "default"
+
+  @module("date-fns/locale/lb")
+  external lb: locale = "default"
+
+  @module("date-fns/locale/lt")
+  external lt: locale = "default"
+
+  @module("date-fns/locale/lv")
+  external lv: locale = "default"
+
+  @module("date-fns/locale/mk")
+  external mk: locale = "default"
+
+  @module("date-fns/locale/mn")
+  external mn: locale = "default"
+
+  @module("date-fns/locale/ms")
+  external ms: locale = "default"
+
+  @module("date-fns/locale/mt")
+  external mt: locale = "default"
+
+  @module("date-fns/locale/nb")
+  external nb: locale = "default"
+
+  @module("date-fns/locale/nl")
+  external nl: locale = "default"
+
+  @module("date-fns/locale/nl-BE")
+  external nl_BE: locale = "default"
+
+  @module("date-fns/locale/nn")
+  external nn: locale = "default"
+
+  @module("date-fns/locale/oc")
+  external oc: locale = "default"
+
+  @module("date-fns/locale/pl")
+  external pl: locale = "default"
+
+  @module("date-fns/locale/pt")
+  external pt: locale = "default"
+
+  @module("date-fns/locale/pt-BR")
+  external pt_BR: locale = "default"
+
+  @module("date-fns/locale/ro")
+  external ro: locale = "default"
+
+  @module("date-fns/locale/ru")
+  external ru: locale = "default"
+
+  @module("date-fns/locale/sk")
+  external sk: locale = "default"
+
+  @module("date-fns/locale/sl")
+  external sl: locale = "default"
+
+  @module("date-fns/locale/sq")
+  external sq: locale = "default"
+
+  @module("date-fns/locale/sr")
+  external sr: locale = "default"
+
+  @module("date-fns/locale/sr-Latn")
+  external sr_Latn: locale = "default"
+
+  @module("date-fns/locale/sv")
+  external sv: locale = "default"
+
+  @module("date-fns/locale/ta")
+  external ta: locale = "default"
+
+  @module("date-fns/locale/te")
+  external te: locale = "default"
+
+  @module("date-fns/locale/th")
+  external th: locale = "default"
+
+  @module("date-fns/locale/tr")
+  external tr: locale = "default"
+
+  @module("date-fns/locale/ug")
+  external ug: locale = "default"
+
+  @module("date-fns/locale/uk")
+  external uk: locale = "default"
+
+  @module("date-fns/locale/uz")
+  external uz: locale = "default"
+
+  @module("date-fns/locale/uz-Cyrl")
+  external uz_Cyrl: locale = "default"
+
+  @module("date-fns/locale/vi")
+  external vi: locale = "default"
+
+  @module("date-fns/locale/zh-CN")
+  external zh_CN: locale = "default"
+
+  @module("date-fns/locale/zh-HK")
+  external zh_HK: locale = "default"
+
+  @module("date-fns/locale/zh-TW")
+  external zh_TW: locale = "default"
 }
